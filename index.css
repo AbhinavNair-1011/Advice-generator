@@ -10,10 +10,12 @@ body{
     text-align: start;
     color:white;
 font-size: 10px;
+/* box-shadow: 0 0 20px 0 hsl(162, 93%, 52%); */
+
 
    }
    .attribution h1{
-    width:320px;
+    width:200px;
     text-align: start;
     text-align: center;
    }
@@ -23,6 +25,9 @@ font-size: 10px;
    }
    .attribution p{
     text-align: center;
+   }
+   .attribution p{
+    width:70px;
    }
 .container{
    height:100%;
@@ -35,8 +40,9 @@ font-size: 10px;
 
 .adviceBox{
     position:absolute;
-    top:95px;
-  
+    top:135px;
+    box-shadow: 0 0 20px 0 hsl(162, 93%, 52%);
+
     background-color: hsl(218, 19%, 25%);
   
     border-radius: 9px;
@@ -50,7 +56,7 @@ width: 335px;
 }
 .adviceBox h1{
     color: hsla(157, 90%, 58%, 0.924);
-    font-size: 14px;
+    font-size: 12px;
     padding: 30px 30px 12px 30px;
     letter-spacing: 3px;
     font-weight: 600;
@@ -94,9 +100,14 @@ margin:11px;
 
     
 }
-.circle:hover{
+.circle:active{
   box-shadow: 0 0 20px 0 hsl(162, 93%, 52%);
 }
+.circle:hover{
+    box-shadow: 0 0 20px 0 hsl(162, 93%, 52%);
+
+  }
+
 
 .circle{
     width:63px;
@@ -160,6 +171,8 @@ margin:11px;
         top:125px;
       
         background-color: hsl(218, 19%, 25%);
+        box-shadow: 0 0 20px 0 hsl(162, 93%, 52%);
+
       
         border-radius: 12px;
     height:290px;
@@ -177,6 +190,7 @@ margin:11px;
         position: relative;
         display: flex;
         justify-content: center;
+        
         
      }
      .adviceBox h1{
@@ -198,7 +212,8 @@ font-size: 10px;
    }
    .attribution h1{
     width:320px;
-    text-align: start;
+    text-align:  center;
+    
    }
    .attribution a{
     color:red;
@@ -214,8 +229,12 @@ font-size: 10px;
        margin-right:10px;
         
     }
-    .circle:hover{
+    .circle:active{
         box-shadow: 0 0 20px 0 hsl(162, 93%, 52%);
+      }
+      .circle:hover{
+        box-shadow: 0 0 20px 0 hsl(162, 93%, 52%);
+
       }
      .rd{
 
