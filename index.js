@@ -1,10 +1,9 @@
 
 document.addEventListener("DOMContentLoaded",()=>{
-      let i=1;
+   
       let circle= document.querySelector(".circle");
-
   function advice(e){
-            e.preventDefault();
+            // e.preventDefault();
             let i=Math.floor(Math.random()*200)
         axios.get(`https://api.adviceslip.com/advice/${i}`)
     .then(res=> {
@@ -17,6 +16,8 @@ document.addEventListener("DOMContentLoaded",()=>{
     })
     .catch(err=>console.log(`advice deleted ${err}`))
 }
+advice();
+
 
       circle.addEventListener("click",advice);
     

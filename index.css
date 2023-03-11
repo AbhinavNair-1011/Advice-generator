@@ -4,6 +4,26 @@ body{
     font-weight: 800;
 
 }
+.attribution {
+    display: flex ;
+    justify-content: space-between;
+    text-align: start;
+    color:white;
+font-size: 10px;
+
+   }
+   .attribution h1{
+    width:320px;
+    text-align: start;
+    text-align: center;
+   }
+   .attribution a{
+    color:red;
+    text-decoration: none;
+   }
+   .attribution p{
+    text-align: center;
+   }
 .container{
    height:100%;
    width:100%;
@@ -169,7 +189,21 @@ margin:11px;
     
     
     }
-   
+   .attribution {
+    display: flex ;
+    justify-content: space-between;
+    text-align: start;
+    color:white;
+font-size: 10px;
+   }
+   .attribution h1{
+    width:320px;
+    text-align: start;
+   }
+   .attribution a{
+    color:red;
+    text-decoration: none;
+   }
     .lineWrapper{
         display: flex;
         justify-content: space-around;
